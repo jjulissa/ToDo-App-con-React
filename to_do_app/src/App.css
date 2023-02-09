@@ -17,8 +17,73 @@ body {
 
 }
 
+.tachada { 
+  text-decoration: line-through;
+}
 
-  
+.App { 
+  display: flex; 
+  flex-direction: column;
+  width: 100%; 
+  padding: 20px;
+}
+
+.AppOne { 
+  display: flex; 
+}
 
 
+.mainOne, .mainTwo { 
+  width: 50%; 
+  padding: 25px; 
 
+} 
+
+.form { 
+    display: flex; 
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;
+    gap: 30px;
+
+} 
+
+.btnAsDes { 
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+  margin: 30px;
+}  
+
+.btnAsDes button, #btnAgregar { 
+  width: 130px; 
+  height: 25px; 
+  border-radius: 50px; 
+  border: #6096B4 solid 2px; 
+  background-color: #EEE9DA; 
+  color: #0F6292; 
+  font-family: 'Caveat', cursive;
+  font-family: 'Cormorant SC', serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Rye', cursive; 
+  font-size: 15px;
+} 
+
+#btnAgregar:hover, .btnAsDes button:hover { 
+  width: 150px; 
+  height: 40px; 
+  background-color: #C92C6D; 
+  color: white; 
+  /* font-size: ; */
+} 
+
+input { 
+  width: 300px; 
+  height: 30px; 
+  border-radius: 50px;
+  border: #1F8A70 solid 2px; 
+} 
+
+.cadaTask { 
+  padding: 30px;
+}
