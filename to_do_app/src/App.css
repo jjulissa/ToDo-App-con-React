@@ -10,7 +10,7 @@ body {
   font-family: 'Cormorant SC', serif;
   font-family: 'Outfit', sans-serif;
   font-family: 'Rye', cursive; 
-  font-size: 28px; 
+  font-size: 30px; 
   text-align: center; 
   font-style: italic; 
   font-weight: 600; 
@@ -35,9 +35,14 @@ body {
 
 .mainOne, .mainTwo { 
   width: 50%; 
-  padding: 25px; 
+  padding: 40px; 
+  
 
 } 
+/* .mainTwo { 
+  border: solid 5px #86C8BC; 
+  border-radius: 50%;
+} */
 
 .form { 
     display: flex; 
